@@ -6,29 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria: Muffin</title>
 </head>
-<body>
+<body style="background-color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
 
     <header><!-- Esta es una etiqueta semantica de cabecera --->
         <nav><!-- Barra de navegación -->
             <ul><!-- ul = Lista desordenada/unordered list, se usa para menus, lifehack: puedo poner li*num + tab  --> <!-- ol es ordered list, es cuando queremos poner pasos -->
-                <li> <a href="">Nosotros</a> </li>
-                <li> <a href="">Promociones</a> </li>
-                <li> <a href="">Menu</a> </li>
-                <li> <a href="">Contacto</a> </li>
+                <!-- Enlace interno -->
+                
+                <li> <a href="#promo">Promociones</a> </li>
+                <li> <a href="#menu">Menu</a> </li>
+                <li> <a href="#contacto">Contacto</a> </li>
+                <li> <a href="#receta">Receta de la abuela</a> </li>
             </ul>
         </nav> 
+
+         <!-- Esta es la sección sobre nosotros -->
+        <div style="text-align: center;">
+            <h1 style="color: chocolate;">Cafetería Muffin</h1>
+            <p style="font-size: 26px;">Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan, crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar todos los días.</p>
+        </div>
 
     </header>
 
     <!-- Información principal de mi página -->
      <main>
-        <!-- Esta es la sección sobre nosotros -->
-        <article>
-            <h1>Cafetería Muffin</h1>
-            <p>Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan, crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar todos los días.</p>
-        </article>
+       
         <!-- Esta es la sección de promociones -->
-        <section>
+        <section id="promo">
             <h2>Promociones</h2>
             <ul>
                 <li><strong>2x1</strong> en Muffins los Martes y Jueves</li>
@@ -40,22 +44,36 @@
 
         <!-- Esta es la sección de menú -->
 
-        <section>
+        <section id="menu">
             <h2>Menu</h2>
             <!-- No existe un contenedor para una tarjeta, asi que usaré un div -->
              <!-- Tarjeta de postre -->
-             <div>
-                <img src="https://www.elglobo.com.mx/cdn/shop/products/497106-1_400x.jpg?v=1651697685" alt="Imagen de un pastel mil hojas">
+             <article>
+                <img src="https://www.elglobo.com.mx/cdn/shop/products/497106-1_400x.jpg?v=1651697685" alt="Imagen de un pastel mil hojas" width="300" >
                 <h3>Pastel mil hojas</h3>
                 <p><strong>$543</strong></p>
-                <button>Agregar</button>
-             </div>
+                <button style="border-radius: 12px; background-color: blue;color:white;">Agregar</button>
+             </article>
+
+             <article>
+                <img src="https://www.elglobo.com.mx/cdn/shop/products/497090-1_400x.jpg?v=1618602704" alt="Imagen de un pastel mil tiramisú" width="300">
+                <h3>Pastel tiramisú</h3>
+                <p><strong>$431</strong></p>
+                <button style="border-radius: 12px; background-color: blue;color:white;">Agregar</button>
+             </article>
+
+             <article>
+                <img src="https://www.elglobo.com.mx/cdn/shop/files/1920x1536-UE-croffin-toffee_400x.jpg?v=1748296907" alt="Imagen de un cruffin toffee" width="300" >
+                <h3>Cruffin toffee</h3>
+                <p><strong>$431</strong></p>
+                <button style="border-radius: 12px; background-color: blue;color:white;">Agregar</button>
+             </article>
 
         </section>
 
 
         <!-- Esta es la sección de receta -->
-        <section>
+        <section id="receta">
             <h2>Receta de la abuela</h2>            
             <h3>Muffin de zanahoria</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate commodi esse velit, est voluptates animi natus ipsa? Itaque temporibus aliquid odit delectus nobis enim numquam obcaecati qui, consectetur officiis!</p>
@@ -75,9 +93,13 @@
 
      <!-- Footer, pie de página, va después de main -->
      <footer>
-        <section>
+        <section id="contacto">
             <h2>Contacto</h2>
-            <p>Visitanos en nuestra sucursal...</p>
+            <section>
+
+            </section>
+            <p>Visitanos en nuestra sucursales</p>
+
 
             <h3>Pedidos</h3>
             <!-- Formulario -->
