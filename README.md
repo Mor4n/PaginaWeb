@@ -1,7 +1,8 @@
 
 # Proyecto: Mi primera página web
 
-Esta pagina fue realizada en clase ;u; se trata de una página en la que se practicó las diferentes etiquetas de HTML, desde los headings, hasta formularios y estructura semantica, así como la estructura general que tiene una página web, al igual que se nos enseñó a como usar Github, los repositorios y commits, y el como desplegarlo en Github Pages. 
+Esta pagina fue realizada en clase ;u; se trata de una página en la que se practicó las diferentes etiquetas de HTML, desde los headings, formularios, estructura semantica, así como la estructura general que tiene una página web.
+A lo largo del módulo también se nos enseñó a como usar Github, los repositorios y commits, y en esta última ocasión, a como desplegarlo en Github Pages, traté de aplicar todo lo aprendido al proyecto 😿
 
 
 
@@ -14,9 +15,7 @@ Está desplegada en Github pages y puedes visualizar la página en el siguiente 
 https://mor4n.github.io/PaginaWeb.github.io/
 
 
-Nombre del Proyecto
 
-Descripción breve sobre lo que hace el proyecto y su propósito.
 
 ## Instalación
 
